@@ -4,7 +4,8 @@ import styles from './Header.module.css'
 
 // icon from fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee,faSearch,faUserCircle,faHeart,faCartArrowDown } from '@fortawesome/free-solid-svg-icons'
+
+import { faCoffee,faSearch,faUserCircle,faHeart,faCartArrowDown } from  '@fortawesome/free-solid-svg-icons'
 const Header = () => {
     return (
         <>

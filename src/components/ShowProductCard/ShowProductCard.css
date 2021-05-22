@@ -1,0 +1,11 @@
+.product-img{
+    width: 140px;
+}
+.product-header{
+    display: flex;
+    padding: 4px 34px;
+}
+.product-header p{
+   
+    padding: 54px 26px;
+}

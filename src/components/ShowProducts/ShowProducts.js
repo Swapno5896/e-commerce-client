@@ -1,19 +1,19 @@
-import React from "react";
-import { Card, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Card, Button,Spinner } from "react-bootstrap";
+import ShowProductCard from "../ShowProductCard/ShowProductCard";
+
 const ShowProducts = () => {
+  const [isLoading, setIsLoading] = useState(false)
   return (
     <div>
-      <Card>
-        <Card.Header>Featured</Card.Header>
-        <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
-          <Card.Text>
-            With supporting text below as a natural lead-in to additional
-            content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
+       
+    
+      
+            <Spinner animation="border" variant="secondary" /> 
+        
+    
+       
+      <ShowProductCard></ShowProductCard>
     </div>
   );
 };

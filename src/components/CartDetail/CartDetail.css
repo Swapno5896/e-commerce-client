@@ -1,0 +1,17 @@
+.CartDetail-header{
+    display: flex;
+   
+}
+.CartDetail-header p{
+  padding: 2px 23px;
+   
+}
+#CartDetail-container{
+    border: 0.5px solid gray;
+}
+.detail-item{
+    padding: 0px 13px;
+}
+.detail-btn{
+    margin: 8px 28px;
+}
